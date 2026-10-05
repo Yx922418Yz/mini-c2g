@@ -1,0 +1,41 @@
+{"event": "start", "time": 1791041510.642, "run_id": "gpu_B_int8_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791041512.933, "params": 822680, "virtual_layers": 6, "parallel_residual": false, "depth_recurrence": false}
+{"event": "train", "time": 1791041564.012, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 51.07}
+{"event": "train", "time": 1791041591.354, "step": 2, "loss": 6.93468, "lr_scale": 1.0, "elapsed_s": 78.41}
+{"event": "train", "time": 1791041591.4, "step": 3, "loss": 6.54128, "lr_scale": 1.0, "elapsed_s": 78.45}
+{"event": "train", "time": 1791041591.45, "step": 4, "loss": 6.0475, "lr_scale": 1.0, "elapsed_s": 78.5}
+{"event": "train", "time": 1791041591.496, "step": 5, "loss": 5.90132, "lr_scale": 1.0, "elapsed_s": 78.55}
+{"event": "train", "time": 1791041594.008, "step": 61, "loss": 4.45455, "lr_scale": 0.0, "elapsed_s": 81.06}
+{"event": "eval_start", "time": 1791041594.018, "val_tokens": 59904}
+{"event": "start", "time": 1791041830.616, "run_id": "gpu_B_int8_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791041832.695, "params": 822680, "virtual_layers": 6, "parallel_residual": false, "depth_recurrence": false}
+{"event": "train", "time": 1791041836.413, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 3.71}
+{"event": "train", "time": 1791041837.429, "step": 2, "loss": 6.93468, "lr_scale": 1.0, "elapsed_s": 4.73}
+{"event": "train", "time": 1791041837.475, "step": 3, "loss": 6.54127, "lr_scale": 1.0, "elapsed_s": 4.78}
+{"event": "train", "time": 1791041837.523, "step": 4, "loss": 6.04753, "lr_scale": 1.0, "elapsed_s": 4.82}
+{"event": "train", "time": 1791041837.57, "step": 5, "loss": 5.90145, "lr_scale": 1.0, "elapsed_s": 4.87}
+{"event": "train", "time": 1791041840.182, "step": 61, "loss": 4.45565, "lr_scale": 0.0, "elapsed_s": 7.48}
+{"event": "eval_start", "time": 1791041840.188, "val_tokens": 59904}
+{"event": "eval_prequant", "time": 1791041840.425, "val_loss": 4.46832, "val_bpb": 2.62482}
+{"event": "quant", "time": 1791041840.523, "scheme": "int8", "weight_blob_bytes": 578459, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791041840.634, "val_loss": 4.47604, "val_bpb": 2.62936}
+{"event": "artifact", "time": 1791041840.677, "path": "artifacts\\gpu_B_int8_s1337_submission.tar.gz", "bytes": 744209}
+{"event": "done", "time": 1791041840.679, "train_time_s": 7.48}
+{"event": "start", "time": 1791041918.286, "run_id": "gpu_B_int8_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791041920.324, "params": 822680, "virtual_layers": 6, "parallel_residual": false, "depth_recurrence": false}
+{"event": "train", "time": 1791041923.759, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 3.43}
+{"event": "train", "time": 1791041924.517, "step": 2, "loss": 6.93468, "lr_scale": 1.0, "elapsed_s": 4.19}
+{"event": "train", "time": 1791041924.563, "step": 3, "loss": 6.54127, "lr_scale": 1.0, "elapsed_s": 4.23}
+{"event": "train", "time": 1791041924.61, "step": 4, "loss": 6.04753, "lr_scale": 1.0, "elapsed_s": 4.28}
+{"event": "train", "time": 1791041924.657, "step": 5, "loss": 5.90145, "lr_scale": 1.0, "elapsed_s": 4.33}
+{"event": "train", "time": 1791041928.982, "step": 100, "loss": 4.31661, "lr_scale": 1.0, "elapsed_s": 8.65}
+{"event": "train", "time": 1791041933.604, "step": 200, "loss": 4.01712, "lr_scale": 1.0, "elapsed_s": 13.27}
+{"event": "train", "time": 1791041938.266, "step": 300, "loss": 3.69021, "lr_scale": 0.8417, "elapsed_s": 17.94}
+{"event": "train", "time": 1791041942.953, "step": 400, "loss": 3.84149, "lr_scale": 0.0083, "elapsed_s": 22.62}
+{"event": "train", "time": 1791041943.0, "step": 401, "loss": 3.30331, "lr_scale": 0.0, "elapsed_s": 22.67}
+{"event": "eval_start", "time": 1791041943.009, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791041946.526, "val_loss": 3.59985, "val_bpb": 2.1571}
+{"event": "quant", "time": 1791041946.66, "scheme": "int8", "weight_blob_bytes": 684654, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791041949.999, "val_loss": 3.64749, "val_bpb": 2.18565}
+{"event": "artifact", "time": 1791041950.074, "path": "artifacts\\gpu_B_int8_s1337_submission.tar.gz", "bytes": 850404}
+{"event": "done", "time": 1791041950.076, "train_time_s": 22.67}

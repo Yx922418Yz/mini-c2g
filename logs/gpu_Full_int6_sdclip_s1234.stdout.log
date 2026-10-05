@@ -1,0 +1,18 @@
+{"event": "start", "time": 1791043856.514, "run_id": "gpu_Full_int6_sdclip_s1234", "seed": 1234, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791043858.552, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791043862.051, "step": 1, "loss": 6.9646, "lr_scale": 1.0, "elapsed_s": 3.49}
+{"event": "train", "time": 1791043862.832, "step": 2, "loss": 6.94114, "lr_scale": 1.0, "elapsed_s": 4.27}
+{"event": "train", "time": 1791043862.884, "step": 3, "loss": 6.50064, "lr_scale": 1.0, "elapsed_s": 4.33}
+{"event": "train", "time": 1791043862.944, "step": 4, "loss": 5.99938, "lr_scale": 1.0, "elapsed_s": 4.39}
+{"event": "train", "time": 1791043863.013, "step": 5, "loss": 5.89197, "lr_scale": 1.0, "elapsed_s": 4.46}
+{"event": "train", "time": 1791043867.928, "step": 100, "loss": 4.37768, "lr_scale": 1.0, "elapsed_s": 9.37}
+{"event": "train", "time": 1791043873.079, "step": 200, "loss": 4.02794, "lr_scale": 1.0, "elapsed_s": 14.52}
+{"event": "train", "time": 1791043878.249, "step": 300, "loss": 3.70281, "lr_scale": 0.8417, "elapsed_s": 19.69}
+{"event": "train", "time": 1791043883.425, "step": 400, "loss": 3.83457, "lr_scale": 0.0083, "elapsed_s": 24.87}
+{"event": "train", "time": 1791043883.478, "step": 401, "loss": 3.30374, "lr_scale": 0.0, "elapsed_s": 24.92}
+{"event": "eval_start", "time": 1791043883.484, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791043887.899, "val_loss": 3.60208, "val_bpb": 2.15844}
+{"event": "quant", "time": 1791043888.5, "scheme": "int6_sdclip", "weight_blob_bytes": 439085, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791043892.835, "val_loss": 4.14959, "val_bpb": 2.48651}
+{"event": "artifact", "time": 1791043892.883, "path": "artifacts\\gpu_Full_int6_sdclip_s1234_submission.tar.gz", "bytes": 604704}
+{"event": "done", "time": 1791043892.884, "train_time_s": 24.92}

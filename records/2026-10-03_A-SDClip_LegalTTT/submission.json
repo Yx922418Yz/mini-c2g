@@ -1,0 +1,28 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "final_a010",
+  "seed": 1337,
+  "track": "10min_16mb (micro-scale CPU development snapshot)",
+  "quant_scheme": "int6_asdclip",
+  "parallel_residual": true,
+  "pr_from_layer": 4,
+  "depth_recurrence": true,
+  "recur_layers": "3,4",
+  "model_dim": 128,
+  "num_layers": 6,
+  "num_heads": 4,
+  "num_kv_heads": 2,
+  "seq_len": 256,
+  "bpb_pre_quant": 2.158616,
+  "bpb_post_quant": 2.217481,
+  "bpb_ttt": 2.165182,
+  "train_time_s": 321.33,
+  "num_params": 822680,
+  "hardware": "CPU micro run",
+  "headline_stats": {
+    "asdclip_vs_sdclip": {"delta_bpb": 0.34782, "n_seeds": 8, "p_perm": 0.0078},
+    "ttt_vs_postquant": {"delta_bpb": 0.05154, "n_seeds": 8, "p_perm": 0.0078}
+  },
+  "boundary": "Micro-scale CPU numbers on an 8M/2M-token FineWeb prefix; not leaderboard BPB. H100 run: scripts/reproduce_h100.sh."
+}

@@ -1,0 +1,13 @@
+\begin{tabular}{l c c c c}
+\toprule
+Scheme & Per-seed BPB & Mean & Std \\
+\midrule
+int8 & 2.1875, 2.1880, 2.1867 & 2.1874 & 0.0006 \\
+int6\_sdclip & 2.5399, 2.3425, 2.5205, 2.6643, 2.5824, 2.5616, 2.5501, 2.7480 & 2.5637 & 0.1171 \\
+int6\_asdclip & 2.2156, 2.2110, 2.2160, 2.2193, 2.2097, 2.2201, 2.2097, 2.2253 & 2.2158 & 0.0056 \\
+\midrule
+\multicolumn{3}{l}{A-SDClip vs SDClip: $\Delta=-0.3478$, $n=8$, $p=0.0078$} \\
+\multicolumn{3}{l}{A-SDClip vs int8: $\Delta=-0.0310$, $n=3$, $p=0.2500$} \\
+\multicolumn{3}{l}{SDClip vs int8: $\Delta=-0.4325$, $n=3$, $p=0.2500$} \\
+\bottomrule
+\end{tabular}

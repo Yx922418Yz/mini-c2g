@@ -1,0 +1,22 @@
+{"event": "start", "time": 1791034831.681, "run_id": "sweep_a010", "seed": 1337, "device": "cpu", "world_size": 1, "python": "3.11.6", "torch": "2.14.1+cpu"}
+{"event": "model", "time": 1791034833.199, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791034833.899, "step": 1, "loss": 6.96333, "lr_scale": 1.0, "elapsed_s": 0.69}
+{"event": "train", "time": 1791034834.641, "step": 2, "loss": 6.90573, "lr_scale": 1.0, "elapsed_s": 1.44}
+{"event": "train", "time": 1791034835.33, "step": 3, "loss": 6.49081, "lr_scale": 1.0, "elapsed_s": 2.12}
+{"event": "train", "time": 1791034836.127, "step": 4, "loss": 6.02123, "lr_scale": 1.0, "elapsed_s": 2.92}
+{"event": "train", "time": 1791034836.862, "step": 5, "loss": 5.88654, "lr_scale": 1.0, "elapsed_s": 3.66}
+{"event": "train", "time": 1791034872.219, "step": 50, "loss": 4.63256, "lr_scale": 1.0, "elapsed_s": 39.01}
+{"event": "train", "time": 1791034912.615, "step": 100, "loss": 4.33362, "lr_scale": 1.0, "elapsed_s": 79.41}
+{"event": "train", "time": 1791034952.88, "step": 150, "loss": 4.06439, "lr_scale": 1.0, "elapsed_s": 119.67}
+{"event": "train", "time": 1791034993.238, "step": 200, "loss": 4.03032, "lr_scale": 1.0, "elapsed_s": 160.03}
+{"event": "train", "time": 1791035033.537, "step": 250, "loss": 3.93376, "lr_scale": 1.0, "elapsed_s": 200.33}
+{"event": "train", "time": 1791035073.946, "step": 300, "loss": 3.70416, "lr_scale": 0.8417, "elapsed_s": 240.74}
+{"event": "train", "time": 1791035114.106, "step": 350, "loss": 3.64378, "lr_scale": 0.425, "elapsed_s": 280.9}
+{"event": "train", "time": 1791035154.322, "step": 400, "loss": 3.83878, "lr_scale": 0.0083, "elapsed_s": 321.12}
+{"event": "train", "time": 1791035155.078, "step": 401, "loss": 3.30368, "lr_scale": 0.0, "elapsed_s": 321.87}
+{"event": "eval_start", "time": 1791035155.081, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791035178.661, "val_loss": 3.60238, "val_bpb": 2.15862}
+{"event": "quant", "time": 1791035179.623, "scheme": "int6_asdclip", "weight_blob_bytes": 441337, "raw_bytes": 869675, "payload_bytes": 838654, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791035205.346, "val_loss": 3.6997, "val_bpb": 2.21693}
+{"event": "artifact", "time": 1791035205.39, "path": "artifacts\\sweep_a010_submission.tar.gz", "bytes": 606532}
+{"event": "done", "time": 1791035205.392, "train_time_s": 321.87}

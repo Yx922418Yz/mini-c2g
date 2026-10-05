@@ -1,0 +1,22 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "gpu_DR_int8_s999",
+  "seed": 999,
+  "quant_scheme": "int8",
+  "parallel_residual": false,
+  "pr_from_layer": 4,
+  "depth_recurrence": true,
+  "recur_layers": "3,4",
+  "model_dim": 128,
+  "num_layers": 6,
+  "num_heads": 4,
+  "num_kv_heads": 2,
+  "seq_len": 256,
+  "bpb_pre_quant": 2.157267,
+  "bpb_post_quant": 2.185504,
+  "bpb_ttt": null,
+  "train_time_s": 24.76,
+  "num_params": 822680,
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU micro run"
+}

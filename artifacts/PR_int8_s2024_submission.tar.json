@@ -1,0 +1,13 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "PR_int8_s2024",
+  "seed": 2024,
+  "quant_scheme": "int8",
+  "bpb_pre_quant": 2.153108,
+  "bpb_post_quant": 2.181851,
+  "bpb_ttt": null,
+  "train_time_s": 405.83,
+  "num_params": 822680,
+  "hardware": "CPU micro run"
+}

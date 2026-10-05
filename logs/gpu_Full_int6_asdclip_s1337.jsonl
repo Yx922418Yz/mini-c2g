@@ -1,0 +1,560 @@
+{"event": "start", "time": 1791041793.284, "run_id": "gpu_Full_int6_asdclip_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791041795.342, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791041798.769, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 3.42}
+{"event": "train", "time": 1791041799.555, "step": 2, "loss": 6.9026, "lr_scale": 1.0, "elapsed_s": 4.21}
+{"event": "train", "time": 1791041799.613, "step": 3, "loss": 6.48796, "lr_scale": 1.0, "elapsed_s": 4.26}
+{"event": "train", "time": 1791041799.675, "step": 4, "loss": 6.02045, "lr_scale": 1.0, "elapsed_s": 4.33}
+{"event": "train", "time": 1791041799.729, "step": 5, "loss": 5.88723, "lr_scale": 1.0, "elapsed_s": 4.38}
+{"event": "train", "time": 1791041802.739, "step": 61, "loss": 4.47688, "lr_scale": 0.0, "elapsed_s": 7.39}
+{"event": "eval_start", "time": 1791041802.745, "val_tokens": 59904}
+{"event": "start", "time": 1791041896.162, "run_id": "gpu_Full_int6_asdclip_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791041898.211, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791041901.653, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 3.44}
+{"event": "train", "time": 1791041902.443, "step": 2, "loss": 6.9026, "lr_scale": 1.0, "elapsed_s": 4.23}
+{"event": "train", "time": 1791041902.497, "step": 3, "loss": 6.48796, "lr_scale": 1.0, "elapsed_s": 4.28}
+{"event": "train", "time": 1791041902.55, "step": 4, "loss": 6.02045, "lr_scale": 1.0, "elapsed_s": 4.33}
+{"event": "train", "time": 1791041902.605, "step": 5, "loss": 5.88723, "lr_scale": 1.0, "elapsed_s": 4.39}
+{"event": "train", "time": 1791041905.55, "step": 61, "loss": 4.47711, "lr_scale": 0.0, "elapsed_s": 7.33}
+{"event": "eval_start", "time": 1791041905.556, "val_tokens": 59904}
+{"event": "eval_prequant", "time": 1791041905.79, "val_loss": 4.48934, "val_bpb": 2.63717}
+{"event": "quant", "time": 1791041906.369, "scheme": "int6_asdclip", "weight_blob_bytes": 420496, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791041906.522, "val_loss": 4.50925, "val_bpb": 2.64886}
+{"event": "ttt", "time": 1791041906.723, "msg": "ttt_chunk:1/8 scored_loss:4.5053"}
+{"event": "ttt", "time": 1791041906.853, "msg": "ttt_chunk:2/8 scored_loss:4.5870"}
+{"event": "ttt", "time": 1791041906.983, "msg": "ttt_chunk:3/8 scored_loss:4.5281"}
+{"event": "ttt", "time": 1791041907.114, "msg": "ttt_chunk:4/8 scored_loss:4.5983"}
+{"event": "ttt", "time": 1791041907.244, "msg": "ttt_chunk:5/8 scored_loss:4.5089"}
+{"event": "ttt", "time": 1791041907.374, "msg": "ttt_chunk:6/8 scored_loss:4.4583"}
+{"event": "ttt", "time": 1791041907.503, "msg": "ttt_chunk:7/8 scored_loss:4.3427"}
+{"event": "ttt", "time": 1791041907.602, "msg": "ttt_chunk:8/8 scored_loss:4.5423"}
+{"event": "eval_ttt", "time": 1791041907.603, "val_loss": 4.50571, "val_bpb": 2.64678}
+{"event": "artifact", "time": 1791041907.636, "path": "artifacts\\gpu_Full_int6_asdclip_s1337_submission.tar.gz", "bytes": 586140}
+{"event": "done", "time": 1791041907.645, "train_time_s": 7.33}
+{"event": "start", "time": 1791042104.686, "run_id": "gpu_Full_int6_asdclip_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791042106.713, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791042110.177, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 3.46}
+{"event": "train", "time": 1791042110.962, "step": 2, "loss": 6.9026, "lr_scale": 1.0, "elapsed_s": 4.24}
+{"event": "train", "time": 1791042111.011, "step": 3, "loss": 6.48796, "lr_scale": 1.0, "elapsed_s": 4.29}
+{"event": "train", "time": 1791042111.063, "step": 4, "loss": 6.02045, "lr_scale": 1.0, "elapsed_s": 4.34}
+{"event": "train", "time": 1791042111.114, "step": 5, "loss": 5.88723, "lr_scale": 1.0, "elapsed_s": 4.4}
+{"event": "train", "time": 1791042115.993, "step": 100, "loss": 4.3332, "lr_scale": 1.0, "elapsed_s": 9.27}
+{"event": "train", "time": 1791042121.134, "step": 200, "loss": 4.03649, "lr_scale": 1.0, "elapsed_s": 14.42}
+{"event": "train", "time": 1791042126.316, "step": 300, "loss": 3.6994, "lr_scale": 0.8417, "elapsed_s": 19.6}
+{"event": "train", "time": 1791042131.485, "step": 400, "loss": 3.83699, "lr_scale": 0.0083, "elapsed_s": 24.77}
+{"event": "train", "time": 1791042131.536, "step": 401, "loss": 3.29801, "lr_scale": 0.0, "elapsed_s": 24.82}
+{"event": "eval_start", "time": 1791042131.541, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791042135.954, "val_loss": 3.60464, "val_bpb": 2.15997}
+{"event": "quant", "time": 1791042136.483, "scheme": "int6_asdclip", "weight_blob_bytes": 437511, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791042140.818, "val_loss": 3.70106, "val_bpb": 2.21775}
+{"event": "ttt", "time": 1791042141.012, "msg": "ttt_chunk:1/245 scored_loss:3.7218"}
+{"event": "ttt", "time": 1791042141.134, "msg": "ttt_chunk:2/245 scored_loss:3.9322"}
+{"event": "ttt", "time": 1791042141.258, "msg": "ttt_chunk:3/245 scored_loss:3.7742"}
+{"event": "ttt", "time": 1791042141.379, "msg": "ttt_chunk:4/245 scored_loss:3.8387"}
+{"event": "ttt", "time": 1791042141.501, "msg": "ttt_chunk:5/245 scored_loss:3.7067"}
+{"event": "ttt", "time": 1791042141.623, "msg": "ttt_chunk:6/245 scored_loss:3.5741"}
+{"event": "ttt", "time": 1791042141.744, "msg": "ttt_chunk:7/245 scored_loss:3.5156"}
+{"event": "ttt", "time": 1791042141.868, "msg": "ttt_chunk:8/245 scored_loss:3.7684"}
+{"event": "ttt", "time": 1791042141.99, "msg": "ttt_chunk:9/245 scored_loss:3.5635"}
+{"event": "ttt", "time": 1791042142.114, "msg": "ttt_chunk:10/245 scored_loss:3.5769"}
+{"event": "ttt", "time": 1791042142.237, "msg": "ttt_chunk:11/245 scored_loss:3.6350"}
+{"event": "ttt", "time": 1791042142.358, "msg": "ttt_chunk:12/245 scored_loss:3.7952"}
+{"event": "ttt", "time": 1791042142.481, "msg": "ttt_chunk:13/245 scored_loss:3.7226"}
+{"event": "ttt", "time": 1791042142.604, "msg": "ttt_chunk:14/245 scored_loss:3.6594"}
+{"event": "ttt", "time": 1791042142.726, "msg": "ttt_chunk:15/245 scored_loss:3.6722"}
+{"event": "ttt", "time": 1791042142.847, "msg": "ttt_chunk:16/245 scored_loss:3.7424"}
+{"event": "ttt", "time": 1791042142.97, "msg": "ttt_chunk:17/245 scored_loss:3.6458"}
+{"event": "ttt", "time": 1791042143.093, "msg": "ttt_chunk:18/245 scored_loss:3.5253"}
+{"event": "ttt", "time": 1791042143.215, "msg": "ttt_chunk:19/245 scored_loss:3.5778"}
+{"event": "ttt", "time": 1791042143.337, "msg": "ttt_chunk:20/245 scored_loss:3.6689"}
+{"event": "ttt", "time": 1791042143.46, "msg": "ttt_chunk:21/245 scored_loss:3.4993"}
+{"event": "ttt", "time": 1791042143.585, "msg": "ttt_chunk:22/245 scored_loss:3.4341"}
+{"event": "ttt", "time": 1791042143.706, "msg": "ttt_chunk:23/245 scored_loss:3.6997"}
+{"event": "ttt", "time": 1791042143.829, "msg": "ttt_chunk:24/245 scored_loss:3.6385"}
+{"event": "ttt", "time": 1791042143.95, "msg": "ttt_chunk:25/245 scored_loss:3.6215"}
+{"event": "ttt", "time": 1791042144.072, "msg": "ttt_chunk:26/245 scored_loss:3.5948"}
+{"event": "ttt", "time": 1791042144.194, "msg": "ttt_chunk:27/245 scored_loss:3.3844"}
+{"event": "ttt", "time": 1791042144.316, "msg": "ttt_chunk:28/245 scored_loss:3.7305"}
+{"event": "ttt", "time": 1791042144.438, "msg": "ttt_chunk:29/245 scored_loss:3.6329"}
+{"event": "ttt", "time": 1791042144.559, "msg": "ttt_chunk:30/245 scored_loss:3.5645"}
+{"event": "ttt", "time": 1791042144.682, "msg": "ttt_chunk:31/245 scored_loss:3.6055"}
+{"event": "ttt", "time": 1791042144.805, "msg": "ttt_chunk:32/245 scored_loss:3.5772"}
+{"event": "ttt", "time": 1791042144.926, "msg": "ttt_chunk:33/245 scored_loss:3.7313"}
+{"event": "ttt", "time": 1791042145.05, "msg": "ttt_chunk:34/245 scored_loss:3.5020"}
+{"event": "ttt", "time": 1791042145.179, "msg": "ttt_chunk:35/245 scored_loss:3.7070"}
+{"event": "ttt", "time": 1791042145.301, "msg": "ttt_chunk:36/245 scored_loss:3.6501"}
+{"event": "ttt", "time": 1791042145.423, "msg": "ttt_chunk:37/245 scored_loss:3.6626"}
+{"event": "ttt", "time": 1791042145.545, "msg": "ttt_chunk:38/245 scored_loss:3.4341"}
+{"event": "ttt", "time": 1791042145.669, "msg": "ttt_chunk:39/245 scored_loss:3.6906"}
+{"event": "ttt", "time": 1791042145.791, "msg": "ttt_chunk:40/245 scored_loss:3.7728"}
+{"event": "ttt", "time": 1791042145.914, "msg": "ttt_chunk:41/245 scored_loss:3.7346"}
+{"event": "ttt", "time": 1791042146.037, "msg": "ttt_chunk:42/245 scored_loss:3.6288"}
+{"event": "ttt", "time": 1791042146.159, "msg": "ttt_chunk:43/245 scored_loss:3.6101"}
+{"event": "ttt", "time": 1791042146.281, "msg": "ttt_chunk:44/245 scored_loss:3.5574"}
+{"event": "ttt", "time": 1791042146.404, "msg": "ttt_chunk:45/245 scored_loss:3.2757"}
+{"event": "ttt", "time": 1791042146.525, "msg": "ttt_chunk:46/245 scored_loss:3.2860"}
+{"event": "ttt", "time": 1791042146.649, "msg": "ttt_chunk:47/245 scored_loss:3.5224"}
+{"event": "ttt", "time": 1791042146.77, "msg": "ttt_chunk:48/245 scored_loss:3.7353"}
+{"event": "ttt", "time": 1791042146.893, "msg": "ttt_chunk:49/245 scored_loss:3.7463"}
+{"event": "ttt", "time": 1791042147.014, "msg": "ttt_chunk:50/245 scored_loss:3.6165"}
+{"event": "ttt", "time": 1791042147.138, "msg": "ttt_chunk:51/245 scored_loss:3.7481"}
+{"event": "ttt", "time": 1791042147.259, "msg": "ttt_chunk:52/245 scored_loss:3.4380"}
+{"event": "ttt", "time": 1791042147.381, "msg": "ttt_chunk:53/245 scored_loss:3.6399"}
+{"event": "ttt", "time": 1791042147.502, "msg": "ttt_chunk:54/245 scored_loss:3.4956"}
+{"event": "ttt", "time": 1791042147.623, "msg": "ttt_chunk:55/245 scored_loss:3.6018"}
+{"event": "ttt", "time": 1791042147.747, "msg": "ttt_chunk:56/245 scored_loss:3.7362"}
+{"event": "ttt", "time": 1791042147.869, "msg": "ttt_chunk:57/245 scored_loss:3.5939"}
+{"event": "ttt", "time": 1791042147.992, "msg": "ttt_chunk:58/245 scored_loss:3.5156"}
+{"event": "ttt", "time": 1791042148.113, "msg": "ttt_chunk:59/245 scored_loss:3.6461"}
+{"event": "ttt", "time": 1791042148.237, "msg": "ttt_chunk:60/245 scored_loss:3.6896"}
+{"event": "ttt", "time": 1791042148.359, "msg": "ttt_chunk:61/245 scored_loss:3.6207"}
+{"event": "ttt", "time": 1791042148.481, "msg": "ttt_chunk:62/245 scored_loss:3.6432"}
+{"event": "ttt", "time": 1791042148.604, "msg": "ttt_chunk:63/245 scored_loss:3.6812"}
+{"event": "ttt", "time": 1791042148.726, "msg": "ttt_chunk:64/245 scored_loss:3.6243"}
+{"event": "ttt", "time": 1791042148.849, "msg": "ttt_chunk:65/245 scored_loss:3.6975"}
+{"event": "ttt", "time": 1791042148.97, "msg": "ttt_chunk:66/245 scored_loss:3.6603"}
+{"event": "ttt", "time": 1791042149.093, "msg": "ttt_chunk:67/245 scored_loss:3.6401"}
+{"event": "ttt", "time": 1791042149.217, "msg": "ttt_chunk:68/245 scored_loss:3.8701"}
+{"event": "ttt", "time": 1791042149.34, "msg": "ttt_chunk:69/245 scored_loss:3.6356"}
+{"event": "ttt", "time": 1791042149.463, "msg": "ttt_chunk:70/245 scored_loss:3.7072"}
+{"event": "ttt", "time": 1791042149.586, "msg": "ttt_chunk:71/245 scored_loss:3.7531"}
+{"event": "ttt", "time": 1791042149.709, "msg": "ttt_chunk:72/245 scored_loss:3.7751"}
+{"event": "ttt", "time": 1791042149.83, "msg": "ttt_chunk:73/245 scored_loss:3.5730"}
+{"event": "ttt", "time": 1791042149.951, "msg": "ttt_chunk:74/245 scored_loss:3.5150"}
+{"event": "ttt", "time": 1791042150.073, "msg": "ttt_chunk:75/245 scored_loss:3.5818"}
+{"event": "ttt", "time": 1791042150.195, "msg": "ttt_chunk:76/245 scored_loss:3.5285"}
+{"event": "ttt", "time": 1791042150.315, "msg": "ttt_chunk:77/245 scored_loss:3.4442"}
+{"event": "ttt", "time": 1791042150.437, "msg": "ttt_chunk:78/245 scored_loss:3.8124"}
+{"event": "ttt", "time": 1791042150.558, "msg": "ttt_chunk:79/245 scored_loss:3.4623"}
+{"event": "ttt", "time": 1791042150.68, "msg": "ttt_chunk:80/245 scored_loss:3.5529"}
+{"event": "ttt", "time": 1791042150.801, "msg": "ttt_chunk:81/245 scored_loss:3.3975"}
+{"event": "ttt", "time": 1791042150.923, "msg": "ttt_chunk:82/245 scored_loss:3.6506"}
+{"event": "ttt", "time": 1791042151.045, "msg": "ttt_chunk:83/245 scored_loss:3.6913"}
+{"event": "ttt", "time": 1791042151.167, "msg": "ttt_chunk:84/245 scored_loss:3.4912"}
+{"event": "ttt", "time": 1791042151.291, "msg": "ttt_chunk:85/245 scored_loss:3.5010"}
+{"event": "ttt", "time": 1791042151.412, "msg": "ttt_chunk:86/245 scored_loss:3.6098"}
+{"event": "ttt", "time": 1791042151.535, "msg": "ttt_chunk:87/245 scored_loss:4.2773"}
+{"event": "ttt", "time": 1791042151.658, "msg": "ttt_chunk:88/245 scored_loss:3.2605"}
+{"event": "ttt", "time": 1791042151.78, "msg": "ttt_chunk:89/245 scored_loss:3.3534"}
+{"event": "ttt", "time": 1791042151.903, "msg": "ttt_chunk:90/245 scored_loss:3.7369"}
+{"event": "ttt", "time": 1791042152.025, "msg": "ttt_chunk:91/245 scored_loss:3.6279"}
+{"event": "ttt", "time": 1791042152.148, "msg": "ttt_chunk:92/245 scored_loss:3.8192"}
+{"event": "ttt", "time": 1791042152.273, "msg": "ttt_chunk:93/245 scored_loss:3.5961"}
+{"event": "ttt", "time": 1791042152.394, "msg": "ttt_chunk:94/245 scored_loss:3.6649"}
+{"event": "ttt", "time": 1791042152.517, "msg": "ttt_chunk:95/245 scored_loss:3.5637"}
+{"event": "ttt", "time": 1791042152.639, "msg": "ttt_chunk:96/245 scored_loss:3.6362"}
+{"event": "ttt", "time": 1791042152.76, "msg": "ttt_chunk:97/245 scored_loss:3.8446"}
+{"event": "ttt", "time": 1791042152.883, "msg": "ttt_chunk:98/245 scored_loss:3.6536"}
+{"event": "ttt", "time": 1791042153.004, "msg": "ttt_chunk:99/245 scored_loss:3.5484"}
+{"event": "ttt", "time": 1791042153.125, "msg": "ttt_chunk:100/245 scored_loss:3.4021"}
+{"event": "ttt", "time": 1791042153.246, "msg": "ttt_chunk:101/245 scored_loss:3.4874"}
+{"event": "ttt", "time": 1791042153.368, "msg": "ttt_chunk:102/245 scored_loss:3.5360"}
+{"event": "ttt", "time": 1791042153.491, "msg": "ttt_chunk:103/245 scored_loss:3.5773"}
+{"event": "ttt", "time": 1791042153.612, "msg": "ttt_chunk:104/245 scored_loss:3.4433"}
+{"event": "ttt", "time": 1791042153.733, "msg": "ttt_chunk:105/245 scored_loss:3.4587"}
+{"event": "ttt", "time": 1791042153.857, "msg": "ttt_chunk:106/245 scored_loss:3.8659"}
+{"event": "ttt", "time": 1791042153.979, "msg": "ttt_chunk:107/245 scored_loss:3.7283"}
+{"event": "ttt", "time": 1791042154.106, "msg": "ttt_chunk:108/245 scored_loss:3.5720"}
+{"event": "ttt", "time": 1791042154.231, "msg": "ttt_chunk:109/245 scored_loss:3.5531"}
+{"event": "ttt", "time": 1791042154.354, "msg": "ttt_chunk:110/245 scored_loss:3.8070"}
+{"event": "ttt", "time": 1791042154.476, "msg": "ttt_chunk:111/245 scored_loss:3.6743"}
+{"event": "ttt", "time": 1791042154.599, "msg": "ttt_chunk:112/245 scored_loss:3.6446"}
+{"event": "ttt", "time": 1791042154.72, "msg": "ttt_chunk:113/245 scored_loss:3.5510"}
+{"event": "ttt", "time": 1791042154.843, "msg": "ttt_chunk:114/245 scored_loss:3.6428"}
+{"event": "ttt", "time": 1791042154.965, "msg": "ttt_chunk:115/245 scored_loss:3.7458"}
+{"event": "ttt", "time": 1791042155.087, "msg": "ttt_chunk:116/245 scored_loss:3.7116"}
+{"event": "ttt", "time": 1791042155.21, "msg": "ttt_chunk:117/245 scored_loss:4.1308"}
+{"event": "ttt", "time": 1791042155.332, "msg": "ttt_chunk:118/245 scored_loss:3.8349"}
+{"event": "ttt", "time": 1791042155.455, "msg": "ttt_chunk:119/245 scored_loss:4.1209"}
+{"event": "ttt", "time": 1791042155.576, "msg": "ttt_chunk:120/245 scored_loss:3.6606"}
+{"event": "ttt", "time": 1791042155.698, "msg": "ttt_chunk:121/245 scored_loss:3.5590"}
+{"event": "ttt", "time": 1791042155.82, "msg": "ttt_chunk:122/245 scored_loss:3.3894"}
+{"event": "ttt", "time": 1791042155.941, "msg": "ttt_chunk:123/245 scored_loss:3.6701"}
+{"event": "ttt", "time": 1791042156.063, "msg": "ttt_chunk:124/245 scored_loss:3.4073"}
+{"event": "ttt", "time": 1791042156.186, "msg": "ttt_chunk:125/245 scored_loss:3.5505"}
+{"event": "ttt", "time": 1791042156.308, "msg": "ttt_chunk:126/245 scored_loss:3.6598"}
+{"event": "ttt", "time": 1791042156.43, "msg": "ttt_chunk:127/245 scored_loss:3.5962"}
+{"event": "ttt", "time": 1791042156.551, "msg": "ttt_chunk:128/245 scored_loss:3.6813"}
+{"event": "ttt", "time": 1791042156.671, "msg": "ttt_chunk:129/245 scored_loss:3.4133"}
+{"event": "ttt", "time": 1791042156.795, "msg": "ttt_chunk:130/245 scored_loss:3.4910"}
+{"event": "ttt", "time": 1791042156.917, "msg": "ttt_chunk:131/245 scored_loss:3.7241"}
+{"event": "ttt", "time": 1791042157.04, "msg": "ttt_chunk:132/245 scored_loss:3.6982"}
+{"event": "ttt", "time": 1791042157.164, "msg": "ttt_chunk:133/245 scored_loss:3.4887"}
+{"event": "ttt", "time": 1791042157.287, "msg": "ttt_chunk:134/245 scored_loss:3.6251"}
+{"event": "ttt", "time": 1791042157.41, "msg": "ttt_chunk:135/245 scored_loss:3.5650"}
+{"event": "ttt", "time": 1791042157.532, "msg": "ttt_chunk:136/245 scored_loss:3.5372"}
+{"event": "ttt", "time": 1791042157.655, "msg": "ttt_chunk:137/245 scored_loss:3.5059"}
+{"event": "ttt", "time": 1791042157.778, "msg": "ttt_chunk:138/245 scored_loss:3.6100"}
+{"event": "ttt", "time": 1791042157.903, "msg": "ttt_chunk:139/245 scored_loss:3.4632"}
+{"event": "ttt", "time": 1791042158.025, "msg": "ttt_chunk:140/245 scored_loss:3.5543"}
+{"event": "ttt", "time": 1791042158.148, "msg": "ttt_chunk:141/245 scored_loss:3.5585"}
+{"event": "ttt", "time": 1791042158.27, "msg": "ttt_chunk:142/245 scored_loss:3.6429"}
+{"event": "ttt", "time": 1791042158.394, "msg": "ttt_chunk:143/245 scored_loss:3.6899"}
+{"event": "ttt", "time": 1791042158.516, "msg": "ttt_chunk:144/245 scored_loss:3.7224"}
+{"event": "ttt", "time": 1791042158.638, "msg": "ttt_chunk:145/245 scored_loss:3.6270"}
+{"event": "ttt", "time": 1791042158.76, "msg": "ttt_chunk:146/245 scored_loss:3.6394"}
+{"event": "ttt", "time": 1791042158.881, "msg": "ttt_chunk:147/245 scored_loss:3.7925"}
+{"event": "ttt", "time": 1791042159.003, "msg": "ttt_chunk:148/245 scored_loss:3.8672"}
+{"event": "ttt", "time": 1791042159.124, "msg": "ttt_chunk:149/245 scored_loss:3.8601"}
+{"event": "ttt", "time": 1791042159.247, "msg": "ttt_chunk:150/245 scored_loss:3.7877"}
+{"event": "ttt", "time": 1791042159.368, "msg": "ttt_chunk:151/245 scored_loss:3.4600"}
+{"event": "ttt", "time": 1791042159.49, "msg": "ttt_chunk:152/245 scored_loss:3.5772"}
+{"event": "ttt", "time": 1791042159.614, "msg": "ttt_chunk:153/245 scored_loss:3.4653"}
+{"event": "ttt", "time": 1791042159.737, "msg": "ttt_chunk:154/245 scored_loss:3.7135"}
+{"event": "ttt", "time": 1791042159.86, "msg": "ttt_chunk:155/245 scored_loss:3.6632"}
+{"event": "ttt", "time": 1791042159.983, "msg": "ttt_chunk:156/245 scored_loss:3.5738"}
+{"event": "ttt", "time": 1791042160.105, "msg": "ttt_chunk:157/245 scored_loss:3.8191"}
+{"event": "ttt", "time": 1791042160.227, "msg": "ttt_chunk:158/245 scored_loss:3.7416"}
+{"event": "ttt", "time": 1791042160.351, "msg": "ttt_chunk:159/245 scored_loss:3.5700"}
+{"event": "ttt", "time": 1791042160.474, "msg": "ttt_chunk:160/245 scored_loss:3.6427"}
+{"event": "ttt", "time": 1791042160.596, "msg": "ttt_chunk:161/245 scored_loss:3.5690"}
+{"event": "ttt", "time": 1791042160.718, "msg": "ttt_chunk:162/245 scored_loss:3.6719"}
+{"event": "ttt", "time": 1791042160.842, "msg": "ttt_chunk:163/245 scored_loss:3.6833"}
+{"event": "ttt", "time": 1791042160.964, "msg": "ttt_chunk:164/245 scored_loss:3.4810"}
+{"event": "ttt", "time": 1791042161.086, "msg": "ttt_chunk:165/245 scored_loss:3.4843"}
+{"event": "ttt", "time": 1791042161.209, "msg": "ttt_chunk:166/245 scored_loss:3.7897"}
+{"event": "ttt", "time": 1791042161.332, "msg": "ttt_chunk:167/245 scored_loss:3.6940"}
+{"event": "ttt", "time": 1791042161.454, "msg": "ttt_chunk:168/245 scored_loss:3.6498"}
+{"event": "ttt", "time": 1791042161.577, "msg": "ttt_chunk:169/245 scored_loss:3.6714"}
+{"event": "ttt", "time": 1791042161.699, "msg": "ttt_chunk:170/245 scored_loss:3.6936"}
+{"event": "ttt", "time": 1791042161.821, "msg": "ttt_chunk:171/245 scored_loss:3.6728"}
+{"event": "ttt", "time": 1791042161.942, "msg": "ttt_chunk:172/245 scored_loss:3.4867"}
+{"event": "ttt", "time": 1791042162.065, "msg": "ttt_chunk:173/245 scored_loss:3.5004"}
+{"event": "ttt", "time": 1791042162.187, "msg": "ttt_chunk:174/245 scored_loss:3.7671"}
+{"event": "ttt", "time": 1791042162.309, "msg": "ttt_chunk:175/245 scored_loss:3.8257"}
+{"event": "ttt", "time": 1791042162.43, "msg": "ttt_chunk:176/245 scored_loss:3.5177"}
+{"event": "ttt", "time": 1791042162.552, "msg": "ttt_chunk:177/245 scored_loss:3.6342"}
+{"event": "ttt", "time": 1791042162.673, "msg": "ttt_chunk:178/245 scored_loss:3.6532"}
+{"event": "ttt", "time": 1791042162.795, "msg": "ttt_chunk:179/245 scored_loss:3.3515"}
+{"event": "ttt", "time": 1791042162.918, "msg": "ttt_chunk:180/245 scored_loss:3.5233"}
+{"event": "ttt", "time": 1791042163.04, "msg": "ttt_chunk:181/245 scored_loss:3.5696"}
+{"event": "ttt", "time": 1791042163.162, "msg": "ttt_chunk:182/245 scored_loss:3.5102"}
+{"event": "ttt", "time": 1791042163.284, "msg": "ttt_chunk:183/245 scored_loss:3.5862"}
+{"event": "ttt", "time": 1791042163.407, "msg": "ttt_chunk:184/245 scored_loss:3.6637"}
+{"event": "ttt", "time": 1791042163.529, "msg": "ttt_chunk:185/245 scored_loss:3.6712"}
+{"event": "ttt", "time": 1791042163.651, "msg": "ttt_chunk:186/245 scored_loss:3.8463"}
+{"event": "ttt", "time": 1791042163.773, "msg": "ttt_chunk:187/245 scored_loss:3.8391"}
+{"event": "ttt", "time": 1791042163.895, "msg": "ttt_chunk:188/245 scored_loss:3.6256"}
+{"event": "ttt", "time": 1791042164.018, "msg": "ttt_chunk:189/245 scored_loss:3.5935"}
+{"event": "ttt", "time": 1791042164.141, "msg": "ttt_chunk:190/245 scored_loss:3.5926"}
+{"event": "ttt", "time": 1791042164.263, "msg": "ttt_chunk:191/245 scored_loss:3.6627"}
+{"event": "ttt", "time": 1791042164.384, "msg": "ttt_chunk:192/245 scored_loss:3.7537"}
+{"event": "ttt", "time": 1791042164.506, "msg": "ttt_chunk:193/245 scored_loss:3.5431"}
+{"event": "ttt", "time": 1791042164.63, "msg": "ttt_chunk:194/245 scored_loss:3.5600"}
+{"event": "ttt", "time": 1791042164.751, "msg": "ttt_chunk:195/245 scored_loss:3.4473"}
+{"event": "ttt", "time": 1791042164.873, "msg": "ttt_chunk:196/245 scored_loss:3.6725"}
+{"event": "ttt", "time": 1791042164.995, "msg": "ttt_chunk:197/245 scored_loss:3.6150"}
+{"event": "ttt", "time": 1791042165.118, "msg": "ttt_chunk:198/245 scored_loss:3.6148"}
+{"event": "ttt", "time": 1791042165.239, "msg": "ttt_chunk:199/245 scored_loss:3.6964"}
+{"event": "ttt", "time": 1791042165.361, "msg": "ttt_chunk:200/245 scored_loss:3.8228"}
+{"event": "ttt", "time": 1791042165.482, "msg": "ttt_chunk:201/245 scored_loss:3.7111"}
+{"event": "ttt", "time": 1791042165.606, "msg": "ttt_chunk:202/245 scored_loss:3.4444"}
+{"event": "ttt", "time": 1791042165.727, "msg": "ttt_chunk:203/245 scored_loss:3.8669"}
+{"event": "ttt", "time": 1791042165.849, "msg": "ttt_chunk:204/245 scored_loss:3.6537"}
+{"event": "ttt", "time": 1791042165.971, "msg": "ttt_chunk:205/245 scored_loss:3.6943"}
+{"event": "ttt", "time": 1791042166.095, "msg": "ttt_chunk:206/245 scored_loss:3.5392"}
+{"event": "ttt", "time": 1791042166.218, "msg": "ttt_chunk:207/245 scored_loss:3.3437"}
+{"event": "ttt", "time": 1791042166.341, "msg": "ttt_chunk:208/245 scored_loss:3.4697"}
+{"event": "ttt", "time": 1791042166.463, "msg": "ttt_chunk:209/245 scored_loss:3.6255"}
+{"event": "ttt", "time": 1791042166.585, "msg": "ttt_chunk:210/245 scored_loss:3.6390"}
+{"event": "ttt", "time": 1791042166.708, "msg": "ttt_chunk:211/245 scored_loss:3.8147"}
+{"event": "ttt", "time": 1791042166.83, "msg": "ttt_chunk:212/245 scored_loss:3.6620"}
+{"event": "ttt", "time": 1791042166.953, "msg": "ttt_chunk:213/245 scored_loss:3.6571"}
+{"event": "ttt", "time": 1791042167.076, "msg": "ttt_chunk:214/245 scored_loss:3.4192"}
+{"event": "ttt", "time": 1791042167.199, "msg": "ttt_chunk:215/245 scored_loss:3.8073"}
+{"event": "ttt", "time": 1791042167.321, "msg": "ttt_chunk:216/245 scored_loss:3.7979"}
+{"event": "ttt", "time": 1791042167.444, "msg": "ttt_chunk:217/245 scored_loss:3.7857"}
+{"event": "ttt", "time": 1791042167.566, "msg": "ttt_chunk:218/245 scored_loss:3.8923"}
+{"event": "ttt", "time": 1791042167.688, "msg": "ttt_chunk:219/245 scored_loss:3.8852"}
+{"event": "ttt", "time": 1791042167.809, "msg": "ttt_chunk:220/245 scored_loss:3.7302"}
+{"event": "ttt", "time": 1791042167.93, "msg": "ttt_chunk:221/245 scored_loss:3.7683"}
+{"event": "ttt", "time": 1791042168.052, "msg": "ttt_chunk:222/245 scored_loss:3.4958"}
+{"event": "ttt", "time": 1791042168.174, "msg": "ttt_chunk:223/245 scored_loss:3.6451"}
+{"event": "ttt", "time": 1791042168.296, "msg": "ttt_chunk:224/245 scored_loss:3.5774"}
+{"event": "ttt", "time": 1791042168.418, "msg": "ttt_chunk:225/245 scored_loss:3.7395"}
+{"event": "ttt", "time": 1791042168.539, "msg": "ttt_chunk:226/245 scored_loss:3.6845"}
+{"event": "ttt", "time": 1791042168.663, "msg": "ttt_chunk:227/245 scored_loss:3.7180"}
+{"event": "ttt", "time": 1791042168.785, "msg": "ttt_chunk:228/245 scored_loss:3.7830"}
+{"event": "ttt", "time": 1791042168.907, "msg": "ttt_chunk:229/245 scored_loss:3.5175"}
+{"event": "ttt", "time": 1791042169.029, "msg": "ttt_chunk:230/245 scored_loss:3.5237"}
+{"event": "ttt", "time": 1791042169.152, "msg": "ttt_chunk:231/245 scored_loss:3.6514"}
+{"event": "ttt", "time": 1791042169.274, "msg": "ttt_chunk:232/245 scored_loss:3.4659"}
+{"event": "ttt", "time": 1791042169.396, "msg": "ttt_chunk:233/245 scored_loss:3.4130"}
+{"event": "ttt", "time": 1791042169.52, "msg": "ttt_chunk:234/245 scored_loss:3.5561"}
+{"event": "ttt", "time": 1791042169.642, "msg": "ttt_chunk:235/245 scored_loss:3.7693"}
+{"event": "ttt", "time": 1791042169.766, "msg": "ttt_chunk:236/245 scored_loss:3.5090"}
+{"event": "ttt", "time": 1791042169.888, "msg": "ttt_chunk:237/245 scored_loss:3.3878"}
+{"event": "ttt", "time": 1791042170.01, "msg": "ttt_chunk:238/245 scored_loss:3.6147"}
+{"event": "ttt", "time": 1791042170.133, "msg": "ttt_chunk:239/245 scored_loss:3.8639"}
+{"event": "ttt", "time": 1791042170.255, "msg": "ttt_chunk:240/245 scored_loss:3.7205"}
+{"event": "ttt", "time": 1791042170.377, "msg": "ttt_chunk:241/245 scored_loss:3.7000"}
+{"event": "ttt", "time": 1791042170.5, "msg": "ttt_chunk:242/245 scored_loss:3.7644"}
+{"event": "ttt", "time": 1791042170.622, "msg": "ttt_chunk:243/245 scored_loss:3.6403"}
+{"event": "ttt", "time": 1791042170.744, "msg": "ttt_chunk:244/245 scored_loss:3.5623"}
+{"event": "ttt", "time": 1791042170.835, "msg": "ttt_chunk:245/245 scored_loss:3.5390"}
+{"event": "eval_ttt", "time": 1791042170.836, "val_loss": 3.63413, "val_bpb": 2.17764}
+{"event": "artifact", "time": 1791042170.869, "path": "artifacts\\gpu_Full_int6_asdclip_s1337_submission.tar.gz", "bytes": 603124}
+{"event": "done", "time": 1791042170.87, "train_time_s": 24.82}
+{"event": "start", "time": 1791044508.766, "run_id": "gpu_Full_int6_asdclip_s1337", "seed": 1337, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791044510.786, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791044514.269, "step": 1, "loss": 6.96332, "lr_scale": 1.0, "elapsed_s": 3.48}
+{"event": "train", "time": 1791044515.054, "step": 2, "loss": 6.9026, "lr_scale": 1.0, "elapsed_s": 4.26}
+{"event": "train", "time": 1791044515.108, "step": 3, "loss": 6.48796, "lr_scale": 1.0, "elapsed_s": 4.32}
+{"event": "train", "time": 1791044515.16, "step": 4, "loss": 6.02045, "lr_scale": 1.0, "elapsed_s": 4.37}
+{"event": "train", "time": 1791044515.211, "step": 5, "loss": 5.88723, "lr_scale": 1.0, "elapsed_s": 4.42}
+{"event": "train", "time": 1791044520.185, "step": 100, "loss": 4.33461, "lr_scale": 1.0, "elapsed_s": 9.39}
+{"event": "train", "time": 1791044525.335, "step": 200, "loss": 4.03626, "lr_scale": 1.0, "elapsed_s": 14.54}
+{"event": "train", "time": 1791044530.626, "step": 300, "loss": 3.71105, "lr_scale": 0.8417, "elapsed_s": 19.83}
+{"event": "train", "time": 1791044535.896, "step": 400, "loss": 3.84585, "lr_scale": 0.0083, "elapsed_s": 25.1}
+{"event": "train", "time": 1791044535.947, "step": 401, "loss": 3.3123, "lr_scale": 0.0, "elapsed_s": 25.16}
+{"event": "eval_start", "time": 1791044535.953, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791044540.364, "val_loss": 3.60366, "val_bpb": 2.15938}
+{"event": "quant", "time": 1791044540.993, "scheme": "int6_asdclip", "weight_blob_bytes": 437803, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791044545.316, "val_loss": 3.69322, "val_bpb": 2.21305}
+{"event": "ttt", "time": 1791044545.569, "msg": "ttt_chunk:1/245 scored_loss:3.7195"}
+{"event": "ttt", "time": 1791044545.707, "msg": "ttt_chunk:2/245 scored_loss:3.9485"}
+{"event": "ttt", "time": 1791044545.845, "msg": "ttt_chunk:3/245 scored_loss:3.7691"}
+{"event": "ttt", "time": 1791044545.983, "msg": "ttt_chunk:4/245 scored_loss:3.8354"}
+{"event": "ttt", "time": 1791044546.12, "msg": "ttt_chunk:5/245 scored_loss:3.6916"}
+{"event": "ttt", "time": 1791044546.256, "msg": "ttt_chunk:6/245 scored_loss:3.5604"}
+{"event": "ttt", "time": 1791044546.391, "msg": "ttt_chunk:7/245 scored_loss:3.5140"}
+{"event": "ttt", "time": 1791044546.528, "msg": "ttt_chunk:8/245 scored_loss:3.7681"}
+{"event": "ttt", "time": 1791044546.663, "msg": "ttt_chunk:9/245 scored_loss:3.5410"}
+{"event": "ttt", "time": 1791044546.8, "msg": "ttt_chunk:10/245 scored_loss:3.5781"}
+{"event": "ttt", "time": 1791044546.935, "msg": "ttt_chunk:11/245 scored_loss:3.6457"}
+{"event": "ttt", "time": 1791044547.072, "msg": "ttt_chunk:12/245 scored_loss:3.8155"}
+{"event": "ttt", "time": 1791044547.209, "msg": "ttt_chunk:13/245 scored_loss:3.7137"}
+{"event": "ttt", "time": 1791044547.346, "msg": "ttt_chunk:14/245 scored_loss:3.6258"}
+{"event": "ttt", "time": 1791044547.483, "msg": "ttt_chunk:15/245 scored_loss:3.6469"}
+{"event": "ttt", "time": 1791044547.621, "msg": "ttt_chunk:16/245 scored_loss:3.7295"}
+{"event": "ttt", "time": 1791044547.758, "msg": "ttt_chunk:17/245 scored_loss:3.6246"}
+{"event": "ttt", "time": 1791044547.896, "msg": "ttt_chunk:18/245 scored_loss:3.5261"}
+{"event": "ttt", "time": 1791044548.034, "msg": "ttt_chunk:19/245 scored_loss:3.5710"}
+{"event": "ttt", "time": 1791044548.171, "msg": "ttt_chunk:20/245 scored_loss:3.6659"}
+{"event": "ttt", "time": 1791044548.309, "msg": "ttt_chunk:21/245 scored_loss:3.4821"}
+{"event": "ttt", "time": 1791044548.445, "msg": "ttt_chunk:22/245 scored_loss:3.4150"}
+{"event": "ttt", "time": 1791044548.583, "msg": "ttt_chunk:23/245 scored_loss:3.6825"}
+{"event": "ttt", "time": 1791044548.72, "msg": "ttt_chunk:24/245 scored_loss:3.6252"}
+{"event": "ttt", "time": 1791044548.858, "msg": "ttt_chunk:25/245 scored_loss:3.5775"}
+{"event": "ttt", "time": 1791044548.995, "msg": "ttt_chunk:26/245 scored_loss:3.5661"}
+{"event": "ttt", "time": 1791044549.133, "msg": "ttt_chunk:27/245 scored_loss:3.3731"}
+{"event": "ttt", "time": 1791044549.269, "msg": "ttt_chunk:28/245 scored_loss:3.7067"}
+{"event": "ttt", "time": 1791044549.405, "msg": "ttt_chunk:29/245 scored_loss:3.6199"}
+{"event": "ttt", "time": 1791044549.542, "msg": "ttt_chunk:30/245 scored_loss:3.5260"}
+{"event": "ttt", "time": 1791044549.677, "msg": "ttt_chunk:31/245 scored_loss:3.5831"}
+{"event": "ttt", "time": 1791044549.815, "msg": "ttt_chunk:32/245 scored_loss:3.5678"}
+{"event": "ttt", "time": 1791044549.951, "msg": "ttt_chunk:33/245 scored_loss:3.7113"}
+{"event": "ttt", "time": 1791044550.088, "msg": "ttt_chunk:34/245 scored_loss:3.4958"}
+{"event": "ttt", "time": 1791044550.225, "msg": "ttt_chunk:35/245 scored_loss:3.6748"}
+{"event": "ttt", "time": 1791044550.362, "msg": "ttt_chunk:36/245 scored_loss:3.6397"}
+{"event": "ttt", "time": 1791044550.5, "msg": "ttt_chunk:37/245 scored_loss:3.6488"}
+{"event": "ttt", "time": 1791044550.637, "msg": "ttt_chunk:38/245 scored_loss:3.4135"}
+{"event": "ttt", "time": 1791044550.775, "msg": "ttt_chunk:39/245 scored_loss:3.6744"}
+{"event": "ttt", "time": 1791044550.913, "msg": "ttt_chunk:40/245 scored_loss:3.7804"}
+{"event": "ttt", "time": 1791044551.049, "msg": "ttt_chunk:41/245 scored_loss:3.7210"}
+{"event": "ttt", "time": 1791044551.187, "msg": "ttt_chunk:42/245 scored_loss:3.6021"}
+{"event": "ttt", "time": 1791044551.324, "msg": "ttt_chunk:43/245 scored_loss:3.6088"}
+{"event": "ttt", "time": 1791044551.463, "msg": "ttt_chunk:44/245 scored_loss:3.5466"}
+{"event": "ttt", "time": 1791044551.6, "msg": "ttt_chunk:45/245 scored_loss:3.2642"}
+{"event": "ttt", "time": 1791044551.737, "msg": "ttt_chunk:46/245 scored_loss:3.2648"}
+{"event": "ttt", "time": 1791044551.876, "msg": "ttt_chunk:47/245 scored_loss:3.4964"}
+{"event": "ttt", "time": 1791044552.012, "msg": "ttt_chunk:48/245 scored_loss:3.7244"}
+{"event": "ttt", "time": 1791044552.15, "msg": "ttt_chunk:49/245 scored_loss:3.7327"}
+{"event": "ttt", "time": 1791044552.285, "msg": "ttt_chunk:50/245 scored_loss:3.6050"}
+{"event": "ttt", "time": 1791044552.423, "msg": "ttt_chunk:51/245 scored_loss:3.7041"}
+{"event": "ttt", "time": 1791044552.559, "msg": "ttt_chunk:52/245 scored_loss:3.4157"}
+{"event": "ttt", "time": 1791044552.699, "msg": "ttt_chunk:53/245 scored_loss:3.6122"}
+{"event": "ttt", "time": 1791044552.835, "msg": "ttt_chunk:54/245 scored_loss:3.4945"}
+{"event": "ttt", "time": 1791044552.971, "msg": "ttt_chunk:55/245 scored_loss:3.5844"}
+{"event": "ttt", "time": 1791044553.108, "msg": "ttt_chunk:56/245 scored_loss:3.7121"}
+{"event": "ttt", "time": 1791044553.245, "msg": "ttt_chunk:57/245 scored_loss:3.5783"}
+{"event": "ttt", "time": 1791044553.383, "msg": "ttt_chunk:58/245 scored_loss:3.5068"}
+{"event": "ttt", "time": 1791044553.521, "msg": "ttt_chunk:59/245 scored_loss:3.6270"}
+{"event": "ttt", "time": 1791044553.659, "msg": "ttt_chunk:60/245 scored_loss:3.6739"}
+{"event": "ttt", "time": 1791044553.797, "msg": "ttt_chunk:61/245 scored_loss:3.6145"}
+{"event": "ttt", "time": 1791044553.933, "msg": "ttt_chunk:62/245 scored_loss:3.6339"}
+{"event": "ttt", "time": 1791044554.071, "msg": "ttt_chunk:63/245 scored_loss:3.6726"}
+{"event": "ttt", "time": 1791044554.211, "msg": "ttt_chunk:64/245 scored_loss:3.5952"}
+{"event": "ttt", "time": 1791044554.347, "msg": "ttt_chunk:65/245 scored_loss:3.6808"}
+{"event": "ttt", "time": 1791044554.484, "msg": "ttt_chunk:66/245 scored_loss:3.6460"}
+{"event": "ttt", "time": 1791044554.62, "msg": "ttt_chunk:67/245 scored_loss:3.6184"}
+{"event": "ttt", "time": 1791044554.759, "msg": "ttt_chunk:68/245 scored_loss:3.8464"}
+{"event": "ttt", "time": 1791044554.896, "msg": "ttt_chunk:69/245 scored_loss:3.6334"}
+{"event": "ttt", "time": 1791044555.033, "msg": "ttt_chunk:70/245 scored_loss:3.6933"}
+{"event": "ttt", "time": 1791044555.169, "msg": "ttt_chunk:71/245 scored_loss:3.7266"}
+{"event": "ttt", "time": 1791044555.308, "msg": "ttt_chunk:72/245 scored_loss:3.7529"}
+{"event": "ttt", "time": 1791044555.444, "msg": "ttt_chunk:73/245 scored_loss:3.5689"}
+{"event": "ttt", "time": 1791044555.581, "msg": "ttt_chunk:74/245 scored_loss:3.4846"}
+{"event": "ttt", "time": 1791044555.718, "msg": "ttt_chunk:75/245 scored_loss:3.5589"}
+{"event": "ttt", "time": 1791044555.854, "msg": "ttt_chunk:76/245 scored_loss:3.5170"}
+{"event": "ttt", "time": 1791044555.989, "msg": "ttt_chunk:77/245 scored_loss:3.4107"}
+{"event": "ttt", "time": 1791044556.127, "msg": "ttt_chunk:78/245 scored_loss:3.7818"}
+{"event": "ttt", "time": 1791044556.265, "msg": "ttt_chunk:79/245 scored_loss:3.4471"}
+{"event": "ttt", "time": 1791044556.402, "msg": "ttt_chunk:80/245 scored_loss:3.5321"}
+{"event": "ttt", "time": 1791044556.539, "msg": "ttt_chunk:81/245 scored_loss:3.3752"}
+{"event": "ttt", "time": 1791044556.676, "msg": "ttt_chunk:82/245 scored_loss:3.6246"}
+{"event": "ttt", "time": 1791044556.814, "msg": "ttt_chunk:83/245 scored_loss:3.6689"}
+{"event": "ttt", "time": 1791044556.952, "msg": "ttt_chunk:84/245 scored_loss:3.4672"}
+{"event": "ttt", "time": 1791044557.089, "msg": "ttt_chunk:85/245 scored_loss:3.4870"}
+{"event": "ttt", "time": 1791044557.227, "msg": "ttt_chunk:86/245 scored_loss:3.5893"}
+{"event": "ttt", "time": 1791044557.365, "msg": "ttt_chunk:87/245 scored_loss:4.2917"}
+{"event": "ttt", "time": 1791044557.503, "msg": "ttt_chunk:88/245 scored_loss:3.2530"}
+{"event": "ttt", "time": 1791044557.639, "msg": "ttt_chunk:89/245 scored_loss:3.3377"}
+{"event": "ttt", "time": 1791044557.778, "msg": "ttt_chunk:90/245 scored_loss:3.7147"}
+{"event": "ttt", "time": 1791044557.915, "msg": "ttt_chunk:91/245 scored_loss:3.6197"}
+{"event": "ttt", "time": 1791044558.052, "msg": "ttt_chunk:92/245 scored_loss:3.8016"}
+{"event": "ttt", "time": 1791044558.188, "msg": "ttt_chunk:93/245 scored_loss:3.5699"}
+{"event": "ttt", "time": 1791044558.325, "msg": "ttt_chunk:94/245 scored_loss:3.6311"}
+{"event": "ttt", "time": 1791044558.462, "msg": "ttt_chunk:95/245 scored_loss:3.5350"}
+{"event": "ttt", "time": 1791044558.598, "msg": "ttt_chunk:96/245 scored_loss:3.6352"}
+{"event": "ttt", "time": 1791044558.735, "msg": "ttt_chunk:97/245 scored_loss:3.8195"}
+{"event": "ttt", "time": 1791044558.871, "msg": "ttt_chunk:98/245 scored_loss:3.6184"}
+{"event": "ttt", "time": 1791044559.007, "msg": "ttt_chunk:99/245 scored_loss:3.5262"}
+{"event": "ttt", "time": 1791044559.144, "msg": "ttt_chunk:100/245 scored_loss:3.3762"}
+{"event": "ttt", "time": 1791044559.281, "msg": "ttt_chunk:101/245 scored_loss:3.4614"}
+{"event": "ttt", "time": 1791044559.42, "msg": "ttt_chunk:102/245 scored_loss:3.5213"}
+{"event": "ttt", "time": 1791044559.556, "msg": "ttt_chunk:103/245 scored_loss:3.5672"}
+{"event": "ttt", "time": 1791044559.694, "msg": "ttt_chunk:104/245 scored_loss:3.4274"}
+{"event": "ttt", "time": 1791044559.831, "msg": "ttt_chunk:105/245 scored_loss:3.4216"}
+{"event": "ttt", "time": 1791044559.968, "msg": "ttt_chunk:106/245 scored_loss:3.8448"}
+{"event": "ttt", "time": 1791044560.105, "msg": "ttt_chunk:107/245 scored_loss:3.7001"}
+{"event": "ttt", "time": 1791044560.242, "msg": "ttt_chunk:108/245 scored_loss:3.5378"}
+{"event": "ttt", "time": 1791044560.379, "msg": "ttt_chunk:109/245 scored_loss:3.5454"}
+{"event": "ttt", "time": 1791044560.517, "msg": "ttt_chunk:110/245 scored_loss:3.7768"}
+{"event": "ttt", "time": 1791044560.654, "msg": "ttt_chunk:111/245 scored_loss:3.6486"}
+{"event": "ttt", "time": 1791044560.793, "msg": "ttt_chunk:112/245 scored_loss:3.6258"}
+{"event": "ttt", "time": 1791044560.93, "msg": "ttt_chunk:113/245 scored_loss:3.5350"}
+{"event": "ttt", "time": 1791044561.067, "msg": "ttt_chunk:114/245 scored_loss:3.6118"}
+{"event": "ttt", "time": 1791044561.204, "msg": "ttt_chunk:115/245 scored_loss:3.7121"}
+{"event": "ttt", "time": 1791044561.339, "msg": "ttt_chunk:116/245 scored_loss:3.6868"}
+{"event": "ttt", "time": 1791044561.477, "msg": "ttt_chunk:117/245 scored_loss:4.1086"}
+{"event": "ttt", "time": 1791044561.613, "msg": "ttt_chunk:118/245 scored_loss:3.8154"}
+{"event": "ttt", "time": 1791044561.748, "msg": "ttt_chunk:119/245 scored_loss:4.0910"}
+{"event": "ttt", "time": 1791044561.886, "msg": "ttt_chunk:120/245 scored_loss:3.6495"}
+{"event": "ttt", "time": 1791044562.023, "msg": "ttt_chunk:121/245 scored_loss:3.5491"}
+{"event": "ttt", "time": 1791044562.16, "msg": "ttt_chunk:122/245 scored_loss:3.3874"}
+{"event": "ttt", "time": 1791044562.296, "msg": "ttt_chunk:123/245 scored_loss:3.6393"}
+{"event": "ttt", "time": 1791044562.434, "msg": "ttt_chunk:124/245 scored_loss:3.3740"}
+{"event": "ttt", "time": 1791044562.571, "msg": "ttt_chunk:125/245 scored_loss:3.5273"}
+{"event": "ttt", "time": 1791044562.71, "msg": "ttt_chunk:126/245 scored_loss:3.6228"}
+{"event": "ttt", "time": 1791044562.848, "msg": "ttt_chunk:127/245 scored_loss:3.5650"}
+{"event": "ttt", "time": 1791044562.986, "msg": "ttt_chunk:128/245 scored_loss:3.6641"}
+{"event": "ttt", "time": 1791044563.123, "msg": "ttt_chunk:129/245 scored_loss:3.3789"}
+{"event": "ttt", "time": 1791044563.26, "msg": "ttt_chunk:130/245 scored_loss:3.4601"}
+{"event": "ttt", "time": 1791044563.396, "msg": "ttt_chunk:131/245 scored_loss:3.6935"}
+{"event": "ttt", "time": 1791044563.536, "msg": "ttt_chunk:132/245 scored_loss:3.6567"}
+{"event": "ttt", "time": 1791044563.673, "msg": "ttt_chunk:133/245 scored_loss:3.4501"}
+{"event": "ttt", "time": 1791044563.811, "msg": "ttt_chunk:134/245 scored_loss:3.6052"}
+{"event": "ttt", "time": 1791044563.949, "msg": "ttt_chunk:135/245 scored_loss:3.5462"}
+{"event": "ttt", "time": 1791044564.086, "msg": "ttt_chunk:136/245 scored_loss:3.5239"}
+{"event": "ttt", "time": 1791044564.223, "msg": "ttt_chunk:137/245 scored_loss:3.4796"}
+{"event": "ttt", "time": 1791044564.358, "msg": "ttt_chunk:138/245 scored_loss:3.5811"}
+{"event": "ttt", "time": 1791044564.495, "msg": "ttt_chunk:139/245 scored_loss:3.4300"}
+{"event": "ttt", "time": 1791044564.631, "msg": "ttt_chunk:140/245 scored_loss:3.5207"}
+{"event": "ttt", "time": 1791044564.767, "msg": "ttt_chunk:141/245 scored_loss:3.5219"}
+{"event": "ttt", "time": 1791044564.903, "msg": "ttt_chunk:142/245 scored_loss:3.6279"}
+{"event": "ttt", "time": 1791044565.039, "msg": "ttt_chunk:143/245 scored_loss:3.6685"}
+{"event": "ttt", "time": 1791044565.177, "msg": "ttt_chunk:144/245 scored_loss:3.6911"}
+{"event": "ttt", "time": 1791044565.315, "msg": "ttt_chunk:145/245 scored_loss:3.5972"}
+{"event": "ttt", "time": 1791044565.451, "msg": "ttt_chunk:146/245 scored_loss:3.5941"}
+{"event": "ttt", "time": 1791044565.591, "msg": "ttt_chunk:147/245 scored_loss:3.7731"}
+{"event": "ttt", "time": 1791044565.727, "msg": "ttt_chunk:148/245 scored_loss:3.8429"}
+{"event": "ttt", "time": 1791044565.863, "msg": "ttt_chunk:149/245 scored_loss:3.8493"}
+{"event": "ttt", "time": 1791044566.001, "msg": "ttt_chunk:150/245 scored_loss:3.7682"}
+{"event": "ttt", "time": 1791044566.137, "msg": "ttt_chunk:151/245 scored_loss:3.4314"}
+{"event": "ttt", "time": 1791044566.275, "msg": "ttt_chunk:152/245 scored_loss:3.5403"}
+{"event": "ttt", "time": 1791044566.413, "msg": "ttt_chunk:153/245 scored_loss:3.4268"}
+{"event": "ttt", "time": 1791044566.551, "msg": "ttt_chunk:154/245 scored_loss:3.6856"}
+{"event": "ttt", "time": 1791044566.688, "msg": "ttt_chunk:155/245 scored_loss:3.6365"}
+{"event": "ttt", "time": 1791044566.825, "msg": "ttt_chunk:156/245 scored_loss:3.5486"}
+{"event": "ttt", "time": 1791044566.962, "msg": "ttt_chunk:157/245 scored_loss:3.7902"}
+{"event": "ttt", "time": 1791044567.101, "msg": "ttt_chunk:158/245 scored_loss:3.7127"}
+{"event": "ttt", "time": 1791044567.237, "msg": "ttt_chunk:159/245 scored_loss:3.5397"}
+{"event": "ttt", "time": 1791044567.373, "msg": "ttt_chunk:160/245 scored_loss:3.6107"}
+{"event": "ttt", "time": 1791044567.515, "msg": "ttt_chunk:161/245 scored_loss:3.5328"}
+{"event": "ttt", "time": 1791044567.65, "msg": "ttt_chunk:162/245 scored_loss:3.6514"}
+{"event": "ttt", "time": 1791044567.786, "msg": "ttt_chunk:163/245 scored_loss:3.6582"}
+{"event": "ttt", "time": 1791044567.923, "msg": "ttt_chunk:164/245 scored_loss:3.4485"}
+{"event": "ttt", "time": 1791044568.061, "msg": "ttt_chunk:165/245 scored_loss:3.4599"}
+{"event": "ttt", "time": 1791044568.199, "msg": "ttt_chunk:166/245 scored_loss:3.7505"}
+{"event": "ttt", "time": 1791044568.336, "msg": "ttt_chunk:167/245 scored_loss:3.6577"}
+{"event": "ttt", "time": 1791044568.472, "msg": "ttt_chunk:168/245 scored_loss:3.6177"}
+{"event": "ttt", "time": 1791044568.61, "msg": "ttt_chunk:169/245 scored_loss:3.6688"}
+{"event": "ttt", "time": 1791044568.748, "msg": "ttt_chunk:170/245 scored_loss:3.6939"}
+{"event": "ttt", "time": 1791044568.885, "msg": "ttt_chunk:171/245 scored_loss:3.6448"}
+{"event": "ttt", "time": 1791044569.023, "msg": "ttt_chunk:172/245 scored_loss:3.4725"}
+{"event": "ttt", "time": 1791044569.16, "msg": "ttt_chunk:173/245 scored_loss:3.4831"}
+{"event": "ttt", "time": 1791044569.298, "msg": "ttt_chunk:174/245 scored_loss:3.7407"}
+{"event": "ttt", "time": 1791044569.435, "msg": "ttt_chunk:175/245 scored_loss:3.7855"}
+{"event": "ttt", "time": 1791044569.572, "msg": "ttt_chunk:176/245 scored_loss:3.4856"}
+{"event": "ttt", "time": 1791044569.709, "msg": "ttt_chunk:177/245 scored_loss:3.5944"}
+{"event": "ttt", "time": 1791044569.846, "msg": "ttt_chunk:178/245 scored_loss:3.6325"}
+{"event": "ttt", "time": 1791044569.983, "msg": "ttt_chunk:179/245 scored_loss:3.3344"}
+{"event": "ttt", "time": 1791044570.12, "msg": "ttt_chunk:180/245 scored_loss:3.5222"}
+{"event": "ttt", "time": 1791044570.256, "msg": "ttt_chunk:181/245 scored_loss:3.5198"}
+{"event": "ttt", "time": 1791044570.393, "msg": "ttt_chunk:182/245 scored_loss:3.4813"}
+{"event": "ttt", "time": 1791044570.529, "msg": "ttt_chunk:183/245 scored_loss:3.5746"}
+{"event": "ttt", "time": 1791044570.666, "msg": "ttt_chunk:184/245 scored_loss:3.6315"}
+{"event": "ttt", "time": 1791044570.802, "msg": "ttt_chunk:185/245 scored_loss:3.6372"}
+{"event": "ttt", "time": 1791044570.937, "msg": "ttt_chunk:186/245 scored_loss:3.8180"}
+{"event": "ttt", "time": 1791044571.074, "msg": "ttt_chunk:187/245 scored_loss:3.8217"}
+{"event": "ttt", "time": 1791044571.213, "msg": "ttt_chunk:188/245 scored_loss:3.6019"}
+{"event": "ttt", "time": 1791044571.349, "msg": "ttt_chunk:189/245 scored_loss:3.5917"}
+{"event": "ttt", "time": 1791044571.487, "msg": "ttt_chunk:190/245 scored_loss:3.5766"}
+{"event": "ttt", "time": 1791044571.623, "msg": "ttt_chunk:191/245 scored_loss:3.6445"}
+{"event": "ttt", "time": 1791044571.76, "msg": "ttt_chunk:192/245 scored_loss:3.7420"}
+{"event": "ttt", "time": 1791044571.898, "msg": "ttt_chunk:193/245 scored_loss:3.5271"}
+{"event": "ttt", "time": 1791044572.034, "msg": "ttt_chunk:194/245 scored_loss:3.5220"}
+{"event": "ttt", "time": 1791044572.172, "msg": "ttt_chunk:195/245 scored_loss:3.4351"}
+{"event": "ttt", "time": 1791044572.31, "msg": "ttt_chunk:196/245 scored_loss:3.6896"}
+{"event": "ttt", "time": 1791044572.446, "msg": "ttt_chunk:197/245 scored_loss:3.5974"}
+{"event": "ttt", "time": 1791044572.583, "msg": "ttt_chunk:198/245 scored_loss:3.5783"}
+{"event": "ttt", "time": 1791044572.721, "msg": "ttt_chunk:199/245 scored_loss:3.6673"}
+{"event": "ttt", "time": 1791044572.86, "msg": "ttt_chunk:200/245 scored_loss:3.7893"}
+{"event": "ttt", "time": 1791044572.997, "msg": "ttt_chunk:201/245 scored_loss:3.6990"}
+{"event": "ttt", "time": 1791044573.133, "msg": "ttt_chunk:202/245 scored_loss:3.4113"}
+{"event": "ttt", "time": 1791044573.27, "msg": "ttt_chunk:203/245 scored_loss:3.8230"}
+{"event": "ttt", "time": 1791044573.406, "msg": "ttt_chunk:204/245 scored_loss:3.6278"}
+{"event": "ttt", "time": 1791044573.542, "msg": "ttt_chunk:205/245 scored_loss:3.6798"}
+{"event": "ttt", "time": 1791044573.68, "msg": "ttt_chunk:206/245 scored_loss:3.5095"}
+{"event": "ttt", "time": 1791044573.817, "msg": "ttt_chunk:207/245 scored_loss:3.2842"}
+{"event": "ttt", "time": 1791044573.953, "msg": "ttt_chunk:208/245 scored_loss:3.4313"}
+{"event": "ttt", "time": 1791044574.09, "msg": "ttt_chunk:209/245 scored_loss:3.5902"}
+{"event": "ttt", "time": 1791044574.236, "msg": "ttt_chunk:210/245 scored_loss:3.6147"}
+{"event": "ttt", "time": 1791044574.373, "msg": "ttt_chunk:211/245 scored_loss:3.7860"}
+{"event": "ttt", "time": 1791044574.509, "msg": "ttt_chunk:212/245 scored_loss:3.6374"}
+{"event": "ttt", "time": 1791044574.646, "msg": "ttt_chunk:213/245 scored_loss:3.6272"}
+{"event": "ttt", "time": 1791044574.784, "msg": "ttt_chunk:214/245 scored_loss:3.3933"}
+{"event": "ttt", "time": 1791044574.922, "msg": "ttt_chunk:215/245 scored_loss:3.7726"}
+{"event": "ttt", "time": 1791044575.058, "msg": "ttt_chunk:216/245 scored_loss:3.7611"}
+{"event": "ttt", "time": 1791044575.196, "msg": "ttt_chunk:217/245 scored_loss:3.7602"}
+{"event": "ttt", "time": 1791044575.334, "msg": "ttt_chunk:218/245 scored_loss:3.8631"}
+{"event": "ttt", "time": 1791044575.472, "msg": "ttt_chunk:219/245 scored_loss:3.8373"}
+{"event": "ttt", "time": 1791044575.609, "msg": "ttt_chunk:220/245 scored_loss:3.6965"}
+{"event": "ttt", "time": 1791044575.747, "msg": "ttt_chunk:221/245 scored_loss:3.7340"}
+{"event": "ttt", "time": 1791044575.884, "msg": "ttt_chunk:222/245 scored_loss:3.4682"}
+{"event": "ttt", "time": 1791044576.021, "msg": "ttt_chunk:223/245 scored_loss:3.6238"}
+{"event": "ttt", "time": 1791044576.158, "msg": "ttt_chunk:224/245 scored_loss:3.5621"}
+{"event": "ttt", "time": 1791044576.295, "msg": "ttt_chunk:225/245 scored_loss:3.6968"}
+{"event": "ttt", "time": 1791044576.431, "msg": "ttt_chunk:226/245 scored_loss:3.6575"}
+{"event": "ttt", "time": 1791044576.567, "msg": "ttt_chunk:227/245 scored_loss:3.6908"}
+{"event": "ttt", "time": 1791044576.703, "msg": "ttt_chunk:228/245 scored_loss:3.7510"}
+{"event": "ttt", "time": 1791044576.84, "msg": "ttt_chunk:229/245 scored_loss:3.4878"}
+{"event": "ttt", "time": 1791044576.976, "msg": "ttt_chunk:230/245 scored_loss:3.5016"}
+{"event": "ttt", "time": 1791044577.113, "msg": "ttt_chunk:231/245 scored_loss:3.6324"}
+{"event": "ttt", "time": 1791044577.25, "msg": "ttt_chunk:232/245 scored_loss:3.4482"}
+{"event": "ttt", "time": 1791044577.388, "msg": "ttt_chunk:233/245 scored_loss:3.3871"}
+{"event": "ttt", "time": 1791044577.526, "msg": "ttt_chunk:234/245 scored_loss:3.5245"}
+{"event": "ttt", "time": 1791044577.663, "msg": "ttt_chunk:235/245 scored_loss:3.7385"}
+{"event": "ttt", "time": 1791044577.801, "msg": "ttt_chunk:236/245 scored_loss:3.5002"}
+{"event": "ttt", "time": 1791044577.937, "msg": "ttt_chunk:237/245 scored_loss:3.3671"}
+{"event": "ttt", "time": 1791044578.075, "msg": "ttt_chunk:238/245 scored_loss:3.5841"}
+{"event": "ttt", "time": 1791044578.212, "msg": "ttt_chunk:239/245 scored_loss:3.8494"}
+{"event": "ttt", "time": 1791044578.35, "msg": "ttt_chunk:240/245 scored_loss:3.7052"}
+{"event": "ttt", "time": 1791044578.488, "msg": "ttt_chunk:241/245 scored_loss:3.6820"}
+{"event": "ttt", "time": 1791044578.625, "msg": "ttt_chunk:242/245 scored_loss:3.7494"}
+{"event": "ttt", "time": 1791044578.763, "msg": "ttt_chunk:243/245 scored_loss:3.6312"}
+{"event": "ttt", "time": 1791044578.901, "msg": "ttt_chunk:244/245 scored_loss:3.5439"}
+{"event": "ttt", "time": 1791044578.986, "msg": "ttt_chunk:245/245 scored_loss:3.5531"}
+{"event": "eval_ttt", "time": 1791044578.987, "val_loss": 3.61264, "val_bpb": 2.16476}
+{"event": "artifact", "time": 1791044579.019, "path": "artifacts\\gpu_Full_int6_asdclip_s1337_submission.tar.gz", "bytes": 603605}
+{"event": "done", "time": 1791044579.02, "train_time_s": 25.16}

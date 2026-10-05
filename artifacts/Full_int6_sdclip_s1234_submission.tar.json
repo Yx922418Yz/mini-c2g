@@ -1,0 +1,13 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "Full_int6_sdclip_s1234",
+  "seed": 1234,
+  "quant_scheme": "int6_sdclip",
+  "bpb_pre_quant": 2.15675,
+  "bpb_post_quant": 2.582381,
+  "bpb_ttt": null,
+  "train_time_s": 323.79,
+  "num_params": 822680,
+  "hardware": "CPU micro run"
+}

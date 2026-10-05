@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large local data (regenerate with prepare_local_data.py)
+data/micro/*.bin
+data/tokenizers/*.model
+data/manifest.json
+*.bin
+*.bin.*
+
+# Keep artifacts produced for the submission
+# (artifacts/ is intentionally committed)
+
+# Logs from local scratch runs are committed under logs/; ignore stdout dumps
+logs/*.stdout.log
+
+# Temp
+*.tmp
+*.log.tmp

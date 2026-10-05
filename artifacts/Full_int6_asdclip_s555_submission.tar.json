@@ -1,0 +1,13 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "Full_int6_asdclip_s555",
+  "seed": 555,
+  "quant_scheme": "int6_asdclip",
+  "bpb_pre_quant": 2.154503,
+  "bpb_post_quant": 2.215558,
+  "bpb_ttt": 2.162454,
+  "train_time_s": 323.84,
+  "num_params": 822680,
+  "hardware": "CPU micro run"
+}

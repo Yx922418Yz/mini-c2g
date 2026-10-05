@@ -1,0 +1,6 @@
+# Local CPU validation path
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.8.0
+numpy>=1.26,<3
+sentencepiece>=0.2.0
+tqdm>=4.66

@@ -1,0 +1,23 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "gpu_Full_int6_asdclip_s999",
+  "seed": 999,
+  "quant_scheme": "int6_asdclip",
+  "parallel_residual": true,
+  "pr_from_layer": 4,
+  "depth_recurrence": true,
+  "recur_layers": "3,4",
+  "model_dim": 128,
+  "num_layers": 6,
+  "num_heads": 4,
+  "num_kv_heads": 2,
+  "seq_len": 256,
+  "ttt_force_fp32": true,
+  "bpb_pre_quant": 2.157889,
+  "bpb_post_quant": 2.212481,
+  "bpb_ttt": 2.16477,
+  "train_time_s": 24.82,
+  "num_params": 822680,
+  "hardware": "NVIDIA GeForce RTX 5060 Laptop GPU micro run"
+}

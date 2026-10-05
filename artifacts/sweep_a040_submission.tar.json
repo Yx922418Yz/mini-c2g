@@ -1,0 +1,13 @@
+{
+  "author": "Li Yaxuan",
+  "github_id": "liyaxuan",
+  "run_id": "sweep_a040",
+  "seed": 1337,
+  "quant_scheme": "int6_asdclip",
+  "bpb_pre_quant": 2.158616,
+  "bpb_post_quant": 2.23147,
+  "bpb_ttt": null,
+  "train_time_s": 323.83,
+  "num_params": 822680,
+  "hardware": "CPU micro run"
+}

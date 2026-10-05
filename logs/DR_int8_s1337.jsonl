@@ -1,0 +1,18 @@
+{"event": "start", "time": 1791019848.885, "run_id": "DR_int8_s1337", "seed": 1337, "device": "cpu", "world_size": 1, "python": "3.11.6", "torch": "2.14.1+cpu"}
+{"event": "model", "time": 1791019850.406, "params": 822680, "virtual_layers": 8, "parallel_residual": false, "depth_recurrence": true}
+{"event": "train", "time": 1791019851.173, "step": 1, "loss": 6.96333, "lr_scale": 1.0, "elapsed_s": 0.76}
+{"event": "train", "time": 1791019852.006, "step": 2, "loss": 6.90572, "lr_scale": 1.0, "elapsed_s": 1.59}
+{"event": "train", "time": 1791019852.776, "step": 3, "loss": 6.4908, "lr_scale": 1.0, "elapsed_s": 2.36}
+{"event": "train", "time": 1791019853.633, "step": 4, "loss": 6.02122, "lr_scale": 1.0, "elapsed_s": 3.22}
+{"event": "train", "time": 1791019854.458, "step": 5, "loss": 5.88655, "lr_scale": 1.0, "elapsed_s": 4.04}
+{"event": "train", "time": 1791019933.135, "step": 100, "loss": 4.33366, "lr_scale": 1.0, "elapsed_s": 82.72}
+{"event": "train", "time": 1791020015.562, "step": 200, "loss": 4.03165, "lr_scale": 1.0, "elapsed_s": 165.15}
+{"event": "train", "time": 1791020097.536, "step": 300, "loss": 3.70333, "lr_scale": 0.8417, "elapsed_s": 247.12}
+{"event": "train", "time": 1791020179.187, "step": 400, "loss": 3.83644, "lr_scale": 0.0083, "elapsed_s": 328.77}
+{"event": "train", "time": 1791020179.998, "step": 401, "loss": 3.29934, "lr_scale": 0.0, "elapsed_s": 329.58}
+{"event": "eval_start", "time": 1791020180.003, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791020203.799, "val_loss": 3.60257, "val_bpb": 2.15873}
+{"event": "quant", "time": 1791020203.895, "scheme": "int8", "weight_blob_bytes": 687894, "raw_bytes": 869675, "payload_bytes": 838654, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791020228.517, "val_loss": 3.64653, "val_bpb": 2.18507}
+{"event": "artifact", "time": 1791020228.582, "path": "artifacts\\DR_int8_s1337_submission.tar.gz", "bytes": 852935}
+{"event": "done", "time": 1791020228.585, "train_time_s": 329.58}

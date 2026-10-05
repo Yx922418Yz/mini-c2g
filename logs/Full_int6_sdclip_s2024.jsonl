@@ -1,0 +1,18 @@
+{"event": "start", "time": 1791022833.497, "run_id": "Full_int6_sdclip_s2024", "seed": 2024, "device": "cpu", "world_size": 1, "python": "3.11.6", "torch": "2.14.1+cpu"}
+{"event": "model", "time": 1791022835.041, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791022835.738, "step": 1, "loss": 6.96063, "lr_scale": 1.0, "elapsed_s": 0.69}
+{"event": "train", "time": 1791022836.554, "step": 2, "loss": 6.93173, "lr_scale": 1.0, "elapsed_s": 1.51}
+{"event": "train", "time": 1791022837.298, "step": 3, "loss": 6.49675, "lr_scale": 1.0, "elapsed_s": 2.25}
+{"event": "train", "time": 1791022838.091, "step": 4, "loss": 6.01229, "lr_scale": 1.0, "elapsed_s": 3.04}
+{"event": "train", "time": 1791022838.851, "step": 5, "loss": 5.8982, "lr_scale": 1.0, "elapsed_s": 3.8}
+{"event": "train", "time": 1791022910.552, "step": 100, "loss": 4.35635, "lr_scale": 1.0, "elapsed_s": 75.51}
+{"event": "train", "time": 1791022986.212, "step": 200, "loss": 4.04637, "lr_scale": 1.0, "elapsed_s": 151.17}
+{"event": "train", "time": 1791023062.052, "step": 300, "loss": 3.70237, "lr_scale": 0.8417, "elapsed_s": 227.01}
+{"event": "train", "time": 1791023137.891, "step": 400, "loss": 3.8403, "lr_scale": 0.0083, "elapsed_s": 302.85}
+{"event": "train", "time": 1791023138.672, "step": 401, "loss": 3.31242, "lr_scale": 0.0, "elapsed_s": 303.63}
+{"event": "eval_start", "time": 1791023138.675, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791023161.94, "val_loss": 3.60041, "val_bpb": 2.15743}
+{"event": "quant", "time": 1791023162.861, "scheme": "int6_sdclip", "weight_blob_bytes": 442799, "raw_bytes": 869675, "payload_bytes": 838654, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791023188.788, "val_loss": 4.25569, "val_bpb": 2.55009}
+{"event": "artifact", "time": 1791023188.849, "path": "artifacts\\Full_int6_sdclip_s2024_submission.tar.gz", "bytes": 608005}
+{"event": "done", "time": 1791023188.851, "train_time_s": 303.63}

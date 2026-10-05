@@ -1,0 +1,18 @@
+{"event": "start", "time": 1791042572.994, "run_id": "gpu_Full_int6_sdclip_s4242", "seed": 4242, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791042575.031, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791042578.453, "step": 1, "loss": 6.96353, "lr_scale": 1.0, "elapsed_s": 3.42}
+{"event": "train", "time": 1791042579.248, "step": 2, "loss": 6.88416, "lr_scale": 1.0, "elapsed_s": 4.21}
+{"event": "train", "time": 1791042579.305, "step": 3, "loss": 6.46048, "lr_scale": 1.0, "elapsed_s": 4.27}
+{"event": "train", "time": 1791042579.364, "step": 4, "loss": 6.03222, "lr_scale": 1.0, "elapsed_s": 4.33}
+{"event": "train", "time": 1791042579.421, "step": 5, "loss": 5.90277, "lr_scale": 1.0, "elapsed_s": 4.38}
+{"event": "train", "time": 1791042584.314, "step": 100, "loss": 4.34963, "lr_scale": 1.0, "elapsed_s": 9.28}
+{"event": "train", "time": 1791042589.469, "step": 200, "loss": 4.01737, "lr_scale": 1.0, "elapsed_s": 14.43}
+{"event": "train", "time": 1791042594.824, "step": 300, "loss": 3.70928, "lr_scale": 0.8417, "elapsed_s": 19.79}
+{"event": "train", "time": 1791042600.376, "step": 400, "loss": 3.83801, "lr_scale": 0.0083, "elapsed_s": 25.34}
+{"event": "train", "time": 1791042600.43, "step": 401, "loss": 3.29762, "lr_scale": 0.0, "elapsed_s": 25.39}
+{"event": "eval_start", "time": 1791042600.436, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791042605.135, "val_loss": 3.59978, "val_bpb": 2.15705}
+{"event": "quant", "time": 1791042605.682, "scheme": "int6_sdclip", "weight_blob_bytes": 439221, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791042610.282, "val_loss": 4.52169, "val_bpb": 2.70948}
+{"event": "artifact", "time": 1791042610.324, "path": "artifacts\\gpu_Full_int6_sdclip_s4242_submission.tar.gz", "bytes": 604820}
+{"event": "done", "time": 1791042610.325, "train_time_s": 25.39}

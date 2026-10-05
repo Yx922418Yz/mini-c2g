@@ -1,0 +1,18 @@
+{"event": "start", "time": 1791042280.537, "run_id": "gpu_Full_int8_s2024", "seed": 2024, "device": "cuda:0", "world_size": 1, "python": "3.11.6", "torch": "2.11.0+cu128"}
+{"event": "model", "time": 1791042282.568, "params": 822680, "virtual_layers": 8, "parallel_residual": true, "depth_recurrence": true}
+{"event": "train", "time": 1791042286.029, "step": 1, "loss": 6.96061, "lr_scale": 1.0, "elapsed_s": 3.46}
+{"event": "train", "time": 1791042286.82, "step": 2, "loss": 6.92683, "lr_scale": 1.0, "elapsed_s": 4.25}
+{"event": "train", "time": 1791042286.872, "step": 3, "loss": 6.49428, "lr_scale": 1.0, "elapsed_s": 4.3}
+{"event": "train", "time": 1791042286.923, "step": 4, "loss": 6.01109, "lr_scale": 1.0, "elapsed_s": 4.35}
+{"event": "train", "time": 1791042286.975, "step": 5, "loss": 5.89756, "lr_scale": 1.0, "elapsed_s": 4.4}
+{"event": "train", "time": 1791042291.897, "step": 100, "loss": 4.35067, "lr_scale": 1.0, "elapsed_s": 9.32}
+{"event": "train", "time": 1791042297.029, "step": 200, "loss": 4.02114, "lr_scale": 1.0, "elapsed_s": 14.46}
+{"event": "train", "time": 1791042302.175, "step": 300, "loss": 3.69778, "lr_scale": 0.8417, "elapsed_s": 19.6}
+{"event": "train", "time": 1791042307.351, "step": 400, "loss": 3.83354, "lr_scale": 0.0083, "elapsed_s": 24.78}
+{"event": "train", "time": 1791042307.408, "step": 401, "loss": 3.31317, "lr_scale": 0.0, "elapsed_s": 24.83}
+{"event": "eval_start", "time": 1791042307.415, "val_tokens": 1999872}
+{"event": "eval_prequant", "time": 1791042311.844, "val_loss": 3.6016, "val_bpb": 2.15815}
+{"event": "quant", "time": 1791042311.964, "scheme": "int8", "weight_blob_bytes": 683658, "raw_bytes": 866603, "payload_bytes": 835534, "quant_tensors": 44}
+{"event": "eval_postquant", "time": 1791042316.287, "val_loss": 3.65209, "val_bpb": 2.1884}
+{"event": "artifact", "time": 1791042316.337, "path": "artifacts\\gpu_Full_int8_s2024_submission.tar.gz", "bytes": 849383}
+{"event": "done", "time": 1791042316.339, "train_time_s": 24.84}

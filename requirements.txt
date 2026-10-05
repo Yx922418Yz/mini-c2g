@@ -1,0 +1,6 @@
+# H100 leaderboard path (CUDA 12.8 wheels)
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch>=2.8.0
+numpy>=1.26,<3
+sentencepiece>=0.2.0
+tqdm>=4.66

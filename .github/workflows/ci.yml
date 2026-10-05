@@ -1,0 +1,81 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-cpu.txt
+
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-cpu.txt
+
+      - name: Compile check
+        run: |
+          python -m compileall -q pgolf train_gpt.py eval_bpb.py prepare_local_data.py pack_submission.py scripts
+
+      - name: Build hermetic synthetic shards
+        run: python scripts/make_synthetic_shards.py
+
+      - name: Baseline run (int8)
+        env:
+          RUN_ID: ci_B
+          ITERATIONS: "10"
+          WARMDOWN_ITERS: "20"
+          BATCH_TOKENS: "1024"
+          SEQ_LEN: "64"
+          VOCAB_SIZE: "256"
+          MODEL_DIM: "32"
+          NUM_LAYERS: "4"
+          NUM_HEADS: "4"
+          NUM_KV_HEADS: "2"
+          VAL_LIMIT_TOKENS: "2000"
+          QUANT_SCHEME: int8
+        run: python train_gpt.py
+
+      - name: Full run (PR + DR + A-SDClip + TTT)
+        env:
+          RUN_ID: ci_Full
+          ITERATIONS: "10"
+          WARMDOWN_ITERS: "20"
+          BATCH_TOKENS: "1024"
+          SEQ_LEN: "64"
+          VOCAB_SIZE: "256"
+          MODEL_DIM: "32"
+          NUM_LAYERS: "4"
+          NUM_HEADS: "4"
+          NUM_KV_HEADS: "2"
+          VAL_LIMIT_TOKENS: "2000"
+          PARALLEL_RESIDUAL: "1"
+          PR_FROM_LAYER: "1"
+          DEPTH_RECURRENCE: "1"
+          RECUR_LAYERS: "2,3"
+          QUANT_SCHEME: int6_asdclip
+          TTT_ENABLED: "1"
+          TTT_CHUNK_TOKENS: "512"
+          TTT_EPOCHS: "2"
+        run: python train_gpt.py
+
+      - name: Gate-check artifacts
+        run: |
+          python pack_submission.py --check artifacts/ci_B_submission.tar.gz
+          python pack_submission.py --check artifacts/ci_Full_submission.tar.gz
+
+      - name: Standalone evaluator
+        env:
+          VOCAB_SIZE: "256"
+          SEQ_LEN: "64"
+        run: python eval_bpb.py --artifact artifacts/ci_Full_submission.tar.gz --val-limit-tokens 2000
